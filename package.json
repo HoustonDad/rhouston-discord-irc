@@ -17,7 +17,7 @@
   "bin": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:reactiflux/discord-irc.git"
+    "url": "git@github.com:zeknurn/discord-irc.git"
   },
   "bugs": {
     "url": "https://github.com/reactiflux/discord-irc/issues"
