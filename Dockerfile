@@ -17,7 +17,7 @@ RUN apt-get install --fix-missing -y nodejs
 RUN npm install git+https://git@github.com/zeknurn/discord-irc.git 
 
 # Add configurations
-ADD config.json config/config.json
+ADD config.json discord-irc/config.json
 
 # Add supervisor configs
 ADD supervisord.conf supervisord.conf
