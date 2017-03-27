@@ -14,7 +14,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install --fix-missing -y nodejs
 
 # Get discord-irc
-RUN npm install zeknurn/discord-irc
+RUN npm install -g zeknurn/discord-irc
 
 # Add configurations
 ADD config.json discord-irc/config.json
