@@ -1,4 +1,4 @@
 # Docker container for discord-irc
 
-# Configuration
+### Configuration
 Edit /config/config.json
