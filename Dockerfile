@@ -14,10 +14,10 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install --fix-missing -y nodejs
 
 # Get discord-irc
-RUN npm install discordlink
+RUN npm install discord-irc
 
 # Add configurations
-ADD config.json config/config.json
+ADD config.json discord-irc/config.json
 
 # Add supervisor configs
 ADD supervisord.conf supervisord.conf
